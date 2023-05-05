@@ -1,11 +1,21 @@
+import React from "react";
+import { useGlobalStyles } from "../../constants";
+import WelcomeSection from "../../components/WelcomeSection/WelcomeSection";
+import SayHelloSection from "../../components/SayHelloSection/SayHelloSection";
+import Section from "../../components/Section/Section";
 
+interface Props {}
 
-const HomePage = () => {
+const HomePage: React.FC<Props> = () => {
+  const globalClasses = useGlobalStyles();
+
   return (
-    <div>
-      Footer
-    </div>
-  )
-}
+    <main className={globalClasses.container}>
+      <WelcomeSection />
+      <Section />
+      <SayHelloSection />
+    </main>
+  );
+};
 
-export default HomePage
+export default HomePage;

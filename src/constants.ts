@@ -23,7 +23,6 @@ export const useGlobalStyles = createUseStyles({
     margin: "0 auto",
     boxSizing: "border-box",
   },
-
   h1: {
     fontFamily: defaultFontMedium,
     fontSize: 24,
@@ -33,21 +32,18 @@ export const useGlobalStyles = createUseStyles({
       color: colorDark,
     },
   },
-
   h2: {
     fontFamily: defaultFontBold,
     fontSize: 36,
     fontWeight: "normal",
     color: colorDark,
   },
-
   h3: {
     fontFamily: defaultFontBold,
     fontSize: 32,
     fontWeight: "normal",
     color: colorDark,
   },
-
   h4: {
     fontFamily: defaultFont,
     fontSize: 12,
@@ -56,7 +52,6 @@ export const useGlobalStyles = createUseStyles({
     textTransform: "uppercase",
     letterSpacing: "1px",
   },
-
   h5: {
     fontFamily: defaultFontBold,
     fontSize: 16,

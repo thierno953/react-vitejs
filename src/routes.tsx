@@ -1,10 +1,9 @@
 import { ReactNode } from "react";
-
 import HomePage from "./pages/HomePage/HomePage";
 import WorkPage from "./pages/WorkPage/WorkPage";
-import AboutPage from "./pages/AboutPage/AboutPage";
 import BlogPage from "./pages/BlogPage/BlogPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
+import AboutPage from "./pages/AboutPage/AboutPage";
 
 export interface Route {
   path: string;
